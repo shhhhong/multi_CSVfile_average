@@ -8,7 +8,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Get a list of all CSV files in a directory
-read_csv_files = glob.glob(r'D:\PythonPycharmProjections\pythontest\2-R2059-1800V-sample-*.csv')
+read_csv_files = glob.glob(r'2-R2059-1800V-sample-*.csv')
 
 
 # Create an empty list storing the full names of the CSV files in the current directory
